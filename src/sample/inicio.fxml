@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.Pane?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="243.0" prefWidth="336.0" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.InicioController">
+   <children>
+      <Button layoutX="146.0" layoutY="181.0" mnemonicParsing="false" onAction="#test" text="Crear" />
+      <Label layoutX="111.0" layoutY="33.0" prefHeight="17.0" prefWidth="114.0" text="Creador de niveles" />
+      <TextField fx:id="filas" layoutX="217.0" layoutY="84.0" prefHeight="25.0" prefWidth="44.0" />
+      <TextField fx:id="columnas" layoutX="217.0" layoutY="124.0" prefHeight="25.0" prefWidth="44.0" />
+      <Label layoutX="56.0" layoutY="128.0" text="Numero de columnas" />
+      <Label layoutX="56.0" layoutY="88.0" text="Numero de filas" />
+   </children>
+</Pane>
